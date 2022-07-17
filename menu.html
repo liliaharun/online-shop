@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+</head>
+<body>
+    <ul id="myUL" style="font-size: large;">
+        <li><span class="caret">Drinks</span>
+          <ul class="nested">
+            <li>Water</li>
+            <li>Coffee</li>
+            <li><span class="caret">Tea</span>
+              <ul class="nested">
+                <li>Black Tea</li>
+                <li>White Tea</li>
+                <li><span class="caret">Green Tea</span>
+                 </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><span class="caret">Rolls</span>
+            <ul class="nested">
+                <li>Philadelphia with salmon</li>
+                <li>Baked shrimp</li>
+                <li>Unagi philadelphia</li>
+                <li>Green dragon</li>
+        </li>
+      </ul>
+      
+    <ul id="MyOl" style="font-size: large;">
+        <li><span class="caret">Sets</span>
+            <ol class="nested">
+             <li>Set#1</li>
+             <li>Set#2</li>
+             <li>Set#3</li>
+            </ol>
+        </li>
+    </ul>
+    <p id="red" style="font-size: x-small;">Keep calm and eat sushi.
+    </p>
+<button onclick="myFunction()">Click Me!</button>
+
+<script>
+function myFunction() {
+  let x = document.getElementById("red");
+  x.style.fontSize = "25px"; 
+  x.style.color = "red"; 
+}
+
+</script>
+
+</body>
+</html>
+
+

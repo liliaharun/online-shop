@@ -1,0 +1,43 @@
+.cart {
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+}
+.about {
+    display: flex;
+    align-items: center;
+}
+.delivery {
+    display: flex;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+/* FOOTER*/
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color:bisque;
+    border-top: 0;
+
+#working-hours, #address {
+    line-height: 1.8;
+    font-size: medium;
+}
+
+#working-hours >span, #address > span {
+    font-size: 1.3em;
+}
+#address p {
+    font-size: 8em;
+    line-height: 1.8;
+}
+
+#reviews {
+    font-size: small;
+    color: aquamarine;
+}
